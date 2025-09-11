@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Introduction</title>
+    <!--css style sheet-->
+    <style>
+        /*creates a flex box that lays items side by side*/
+        .horizontal {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 20px;
+        }
+        /*creates a flex box that lays items on top of one other*/
+        .vertical {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+        /*automatically setting size and padding to an image*/
+        img{
+            max-width: 300px;
+            max-height: 300px;
+            margin: auto;
+            padding-top: 20px;
+        }
+        /*sets the table in the center of the page*/
+        table{
+            margin: auto;
+            justify-content: center;
+        }
+        /*setting font size and appearance for heading 1*/
+        h1{
+            font-size: 50px;
+            font-weight: bold;
+            color: black;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+<h1>Introduction</h1>
+<!--creating the table-->
+<table border="bold">
+    <tr><!--row 1-->
+        <th> skills</th>
+        <th>abilities</th>
+        <th>education</th>
+        <th>training</th>
+    </tr>
+    <tr><!--row 2-->
+        <td>Python</td>
+        <td>Adaptable</td>
+        <td>Junior CS Major, North Carolina Agricultural and Technical State University</td>
+        <td> PlayStation Career Pathway Scholar </td>
+    </tr>
+    <tr><!--row 3-->
+        <td> Java</td>
+        <td>Creative</td>
+        <td> Highschool: May 2023 Graduate from Lee's Summit West High School</td>
+        <td>Founded Highschool NSBE Chapter</td>
+    </tr>
+    <tr> <!--row 5-->
+        <td> C#</td>
+        <td>Communicative</td>
+        <td> </td>
+        <td>AP Computer Science Principles </td>
+    </tr>
+    <tr> <!--row 6-->
+        <td> C++</td>
+        <td>Curious</td>
+        <td> </td>
+        <td>AP Computer Science A </td>
+    </tr>
+    <tr> <!--row 7-->
+        <td> HTML & CSS</td>
+        <td> Coachable </td>
+        <td> </td>
+        <td> TA'd for AP Computer Science A</td>
+    </tr>
+    <tr> <!--row 8-->
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> AP Web Design </td>
+    </tr>
+</table>
+<div class="vertical"> <!--sets the link back to index.html below the images-->
+    <div class="horizontal"> <!-- sets the images side by side of each other-->
+        <img src="img/IMG_1471.jpg" alt="Posing infront of PlayStation sign at Santa Monica Studios">
+        <img src="img/IMG_3209.jpg" alt="Posing under PlayStation Career Pathways Sign at Insomniac Games">
+    </div>
+
+    <a href="index.html"> About Me</a>
+</div>
+
+
+
+</body>
+</html>

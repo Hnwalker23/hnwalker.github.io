@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 1</title>
+    <!--Css style sheet-->
+    <style>
+        /*creates a flex box that lays items side by side*/
+        .horizontal {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 100px;
+        }
+        /*creates a flex box that lays items on top of one other*/
+        .vertical {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-left: 50px;
+            gap: 10px;
+        }
+        /*automatically setting size and padding to an image*/
+        img{
+            max-width: 300px;
+            max-height: 300px;
+        }
+        /*setting font size and appearance for heading 1*/
+        h1{
+            font-size: 50px;
+            font-weight: bold;
+            color: black;
+            text-align: center;
+        }
+        /*setting font size and appearance for paragraphs*/
+        p{
+            text-align: left;
+            max-width: 500px;
+
+        }
+        /*setting font size and appearance for ordered lists*/
+        ol{
+            text-align: center;
+        }
+        /*setting font size and appearance for links*/
+        a{
+            font-size: 20px;
+            padding-top: 15px
+        }
+
+    </style>
+</head>
+<body>
+<header>
+    <h1>About Me</h1>
+</header>
+
+<div class="horizontal"> <!--sets the image next to my name and about me paragraph-->
+    <img src="img/IMG_5008.jpg" alt="Profile Picture">
+    <div class="vertical"> <!-- sets my paragraph under my name-->
+        <h2>Haliyah (Hali) Walker</h2>
+        <p>My name is Haliyah or Hali (Ha-Lee) Walker. I am a Junior Computer Science Student from Kansas City, MO.
+            I am a Spring 25 initiate into the Glamourous Gamma Chapter of Sigma Gamma Rho Sorority Inc., in addition to my academic journey, I serve as a Resident Assistant (since 2024) and recently became a peer mentor through the Aggies Mentor Collective.
+            Outside my studies and leadership roles, I am a creative artist with a passion for drawing and digital design. I enjoy creating posters,
+            flyers, and other forms of digital artwork that allow me to combine my technical and artistic skills.</p>
+    </div>
+</div>
+<br>
+<div class="horizontal"> <!-- sets the current courses next to the induction.html link-->
+    <div class="vertical" text-align="left"> <!--sets the title of the lists on top of the lists itself-->
+        <h3>Current Courses</h3>
+        <ol> <!--creates ordered lists-->
+            <li>Comp 267</li>
+            <li>Comp 285</li>
+            <li> Comp 322</li>
+            <li> Comp 390</li>
+            <li> Hist 130</li>
+        </ol>
+    </div>
+    <form>
+
+    </form>
+    <a href="introduction.html">Introduction</a>
+    <a href="little_prince.html">Little Prince</a>
+</div>
+
+
+
+</body>
+</html>
